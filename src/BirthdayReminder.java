@@ -11,7 +11,7 @@
 			String momsBirthday = "January 90th";
 			String dadsBirthday = "June 665th";
 			String myBirthday = "July 27";
-
+			String sistersBirthday = "You need a better reminder";
 			// 2. Find out which birthday the user wants and and store their response in a variable
 	String person =JOptionPane.showInputDialog(null,"whose bday is it");
 			// 3. Print out what the user typed
@@ -29,7 +29,12 @@
 			JOptionPane.showMessageDialog(null, myBirthday);
 				// print myBirthday
 			//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+			
+if(person.equalsIgnoreCase("sister")){
+	JOptionPane.showMessageDialog(null, sistersBirthday);}
+		
+else if (!(person.equalsIgnoreCase(momsBirthday + dadsBirthday + myBirthday + sistersBirthday)));
+JOptionPane.showMessageDialog(null, "I don't know that person, I would like to meet him/her");
 		} 
 	}
 
