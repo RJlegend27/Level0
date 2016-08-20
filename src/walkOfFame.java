@@ -14,6 +14,7 @@ public class walkOfFame {
 		for (int i = 0; i < 6; i++) {
 			Tortoise.turn(144);
 			Tortoise.move(144);
+			
 		}
 	}
 
@@ -21,13 +22,21 @@ public class walkOfFame {
 
 		// 1. Set the X position of the Tortoise so that it starts on the left.
 		Tortoise.show();
-		Tortoise.setX(50);
+		Tortoise.setX(100);
 		// You also need to show the Tortoise to see the result of this line.
 		Tortoise.setSpeed(10);
 		// 2. Make the Tortoise draw a star shape. Hint: 144.
 		Tortoise.penDown();
-		Tortoise.setPenWidth(15);
-		starU();
+		Tortoise.setPenWidth(105);
+		for (int i= 0; i < 100; i++){
+			starU();
+			Tortoise.turn(0);
+			Tortoise.penUp();
+			Tortoise.move(50);
+			Tortoise.turn(900);
+			Tortoise.move(8);
+			
+		}
 
 		// 3. Set the size of the star to 30.
 
