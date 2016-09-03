@@ -35,9 +35,7 @@ public class secretMessageBox {
 	}
 	// 4. If the passcode matches, show the secret message
 
-	else(){
-			JOptionPane.showMessageDialog(null, "I have no words you are a mean person, you just tried to hack my secret box, I am very very dissapointed");
-		}
+	
 		 //5. If the passcode does not match, pop-up "INTRUDER!!"
 
 	}
