@@ -91,7 +91,7 @@ public class NFLstats {
 
 		String NFL = JOptionPane.showInputDialog("Enter a NFl player");
 		String AntonioBrown = "Antonio Brown";
-		String AdrianPeterson = " ";
+		String AdrianPeterson = "Adrian Peterson";
 		String CamNewton = "Cam Newton";
 		String JJWatt = "JJ Watt";
 		String VonMiller = "Von Miller";
