@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class factors {
 	static void factor(int a, int i) {
 		if (a % i == 0) {
-			System.out.println(i + "is a fator of" + a);
+			System.out.println(i + " is a fator of " + a);
 		}
 	}
 

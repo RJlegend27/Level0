@@ -28,7 +28,7 @@ public class Tortoisecolorchooser {
 		// 2. set the pen width to 10
 		Tortoise.setPenWidth(10);
 		// 1. make the tortoise draw a shape (this will take more than one line of code)
-
+for(int i = 0; i< 7; i++){
 		Tortoise.show();
 		Tortoise.setSpeed(8);
 		Tortoise.move(30);
@@ -94,7 +94,7 @@ public class Tortoisecolorchooser {
 		Tortoise.move(90);
 		Tortoise.move(90);
 		Tortoise.turn(180);
-		
+	}
 	}
 
 }

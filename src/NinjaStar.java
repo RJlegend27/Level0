@@ -39,15 +39,15 @@ import java.awt.Color;
 				Tortoise.turn(-40);
 				// 5. Move the robot the distance in the variable flameSize
 				Tortoise.move(flameSize);
-				Tortoise.setPenColor(Color.MAGENTA);
+				Tortoise.setPenColor(Color.PINK);
 				// 6. Turn the robot 170 degrees
 				Tortoise.turn(170);
 				// 7. Move the robot the distance in the variable flameSize (again)
 				Tortoise.move(flameSize);
-				Tortoise.setPenColor(Color.red);
+				Tortoise.setPenColor(Color.BLUE);
 				// 8. Turn the robot 64 degrees to the right
 				Tortoise.turn(64);
-				Tortoise.setPenColor(Color.black);
+				Tortoise.setPenColor(Color.YELLOW);
 				// 9. Move the robot the distance in the variable baseSize
 				Tortoise.move(baseSize);
 				// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
