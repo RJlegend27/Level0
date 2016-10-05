@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 
 public class CANDYCRUSH {
 
-	public static void main(String[] args) { String nameOfString = "like";
+	public static void main(String[] args) { 
 	
 		// 1. Using a pop-up, ask the user who they don't like
 		String answer = JOptionPane.showInputDialog(null,"Who don't you like");

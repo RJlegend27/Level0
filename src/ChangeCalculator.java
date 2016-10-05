@@ -17,7 +17,7 @@
 			money = JOptionPane.showInputDialog("how many nickles do you have");
 			// Convert their answer to an int using Integer.parseInt()
 			int moneyInt = Integer.parseInt(money);
-			System.out.println(money);
+			System.out.println(moneyInt);
 			// Ask the user how many dimes they have, and convert their answer
 			
 			// Ask the user how many quarters they have, and convert their answer
